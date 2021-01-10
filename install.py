@@ -4,7 +4,7 @@ q1=input('[y/n]:')
 if q1 == 'y':
   os.system('unzip package.lvd')
   os.system('rm package.lvd')
-  os.system('cat package/* >program.py')
+  os.system('cat package/files/package/* >program.py')
   os.system('rm package/ -r')
   print('Finished!')
 else:
