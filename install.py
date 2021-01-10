@@ -5,7 +5,7 @@ if q1 == 'y':
   os.system('unzip package.lvd')
   os.system('rm package.lvd')
   os.system('cat files/package/* >program.py')
-  os.system('rm package/ -r')
+  os.system('rm files/package/ -r')
   print('Finished!')
 else:
   print('Goodbye!')
