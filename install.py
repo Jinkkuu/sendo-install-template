@@ -1,7 +1,8 @@
 import os
+os.system('clear')
 v1='cat files/package/* >'
 v1+=open('filename.lvd','r').read()
-print('DO NOT USE THIS FOR VIDEO TRANSFERS OR PHOTO TRANSFERS, IT WILL CORRUPT IT!\n\nDo you want to install it?')
+print('Sendo Package Manager 1.1\n\nDo you want to install it?')
 q1=input('[y/n]:')
 if q1 == 'y':
   os.system('unzip package.lvd')
